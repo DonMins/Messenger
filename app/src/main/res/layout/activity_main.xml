@@ -15,7 +15,7 @@
         android:layout_marginEnd="24dp"
 
         android:autofillHints=""
-        android:hint= "Email"
+        android:hint= "Login"
         android:drawableLeft="@drawable/ic_action_user"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
@@ -88,14 +88,15 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Зарегистрироваться"
+        android:clickable="true"
+        android:text="Зарегистрироваться ?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -4,6 +4,7 @@
     package="com.example.messenger">
 
     <application
+        android:name=".User"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label=""
@@ -11,8 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".chackIn" />
+        <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
